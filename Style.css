@@ -1,0 +1,71 @@
+/* Estilo geral do corpo */
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo da lista */
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-item {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+
+/* Estilo da imagem do post */
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Conteúdo do post */
+.post-content {
+    padding: 15px;
+}
+
+.post-content h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Autor do post */
+.post-author {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Estatísticas do post (comentários e visualizações) */
+.post-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post-stats span {
+    font-size: 14px;
+    color: #777;
+}
