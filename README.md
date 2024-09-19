@@ -31,3 +31,5 @@ Card Design: Application of rounded borders, soft shadows, and appropriate spaci
 Responsiveness: The card is centered on the screen and adjusts to different screen sizes.
 
 Dynamic Images: Inclusion of images in the card, such as the main post image and the author's avatar, with automatic size adjustments.
+
+![resultado](https://github.com/user-attachments/assets/5c250c63-1ffc-4fe8-8d8a-d74268bd6ab9)
